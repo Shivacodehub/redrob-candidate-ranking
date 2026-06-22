@@ -1,0 +1,26 @@
+# Core ML / GPU
+torch>=2.1.0
+torchvision>=0.16.0
+
+# LLM inference
+transformers>=4.40.0
+accelerate>=0.28.0
+bitsandbytes>=0.43.0
+
+# Embeddings
+sentence-transformers>=2.7.0
+
+# Data
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Notebook
+jupyter>=1.0.0
+ipykernel>=6.29.0
+
+# Output validation
+pyyaml>=6.0.1
+
+# Optional: web app
+flask>=3.0.0
+flask-cors>=4.0.0

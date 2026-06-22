@@ -1,0 +1,48 @@
+# ── Dataset files (too large for GitHub, never commit) ────────────────────────
+data/
+*.jsonl
+*.json
+!candidate_schema.json
+*.csv
+!sample_submission.csv
+
+# ── Model weights (downloaded at runtime) ─────────────────────────────────────
+models/
+*.bin
+*.safetensors
+*.gguf
+
+# ── Python ────────────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.Python
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*_executed.ipynb
+
+# ── Outputs ───────────────────────────────────────────────────────────────────
+output/
+*.npy
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Environment files ─────────────────────────────────────────────────────────
+.env
+.env.*
