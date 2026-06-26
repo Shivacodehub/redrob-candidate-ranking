@@ -10,7 +10,11 @@ import plotly.express as px
 import plotly.graph_objects as go
 import io, os, re
 from datetime import datetime
-
+st.markdown("""
+<style>
+    img[src*="error"] { content: url("https://neural-x.streamlit.app/"); }
+</style>
+""", unsafe_allow_html=True)
 st.set_page_config(
     page_title="Redrob · Candidate Intelligence",
     page_icon="⚡",
