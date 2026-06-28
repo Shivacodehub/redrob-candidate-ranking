@@ -3,7 +3,17 @@
 > Ranks candidates the way a great recruiter would — not by matching keywords, but by actually understanding who fits the role.
 
 ---
+## 🌐 Live Dashboard
 
+Experience the interactive **Neural-X Dashboard** directly in your browser.
+
+<p align="center">
+  <a href="https://neural-x.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Launch%20Live%20Dashboard-Visit%20Now-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Dashboard">
+  </a>
+</p>
+
+> **🔗 Live Demo:** https://neural-x.streamlit.app/
 ## How it works (30-second version)
 
 ```
